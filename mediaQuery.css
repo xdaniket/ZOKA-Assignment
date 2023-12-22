@@ -1,0 +1,106 @@
+@media (min-width: 640px) {
+  .navbar {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  nav {
+    display: flex;
+  }
+  .hero-section {
+    padding-bottom: 4rem;
+    padding-top: 3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    display: flex;
+    width: 50rem;
+    gap: 4rem;
+    justify-content: space-between;
+  }
+  .hero-left-section {
+    padding-bottom: 4rem;
+  }
+  .heading {
+    display: flex;
+    flex-direction: column;
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+  .heading div {
+    display: flex;
+  }
+  .hero-sub-heading {
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+  }
+  .get-in-touch-btn {
+    margin: initial;
+  }
+  .hero-img1 {
+    height: 16rem;
+    width: -webkit-fill-available;
+    padding-bottom: 0.5rem;
+  }
+  .hero-img2-3 {
+    height: 10rem;
+  }
+  .mid-img1 {
+    height: 18rem;
+  }
+  .mid-section {
+    display: flex;
+    flex-direction: row;
+  }
+  .mid-right-section {
+    width: 52%;
+  }
+  .mid-heading {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .mid-sub-heading {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+  }
+  .cards {
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .card {
+    height: 14rem;
+    width: 12rem;
+  }
+  .tab {
+    display: flex;
+    flex-direction: row;
+  }
+  .tab-right-side {
+    width: 60%;
+  }
+  .tab-left-side {
+    width: 25%;
+  }
+  .tab-heading {
+    width: -webkit-fill-available;
+    justify-content: flex-start;
+  }
+  .flower-bottom-section {
+    flex-direction: row;
+    width: inherit;
+  }
+  .slider-img {
+    height: 400px;
+    object-fit: cover;
+  }
+  .trophy-img {
+    position: absolute;
+    top: 3rem;
+    right: 10.5rem;
+    display: block;
+  }
+}
